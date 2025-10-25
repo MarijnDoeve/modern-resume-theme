@@ -99,7 +99,7 @@
         {%- endif -%}
         {%- if site.mastodon_username -%}
           <li>
-            <a target="_blank" href="https://{{ site.mastodon_instance| escape }}/@{{ site.mastodon_username| escape }}" class="button button--sacnite button--round-l">
+            <a rel="me" target="_blank" href="https://{{ site.mastodon_instance| escape }}/@{{ site.mastodon_username| escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-mastodon" title="Mastodon link"></i>
             </a>
           </li>
